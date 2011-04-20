@@ -12,7 +12,7 @@ MKZIP='7z -mx9 -mmt=1 a "$OUTFILE" .'
 PRODUCE_TAR=n
 PRODUCE_ZIP=n
 TARGET="VisionKernel"
-THREADS=3
+THREADS=5
 VERSION=$(date +%Y%m%d%H%M)
 TRACK=n
 TRACK_OUT="$PWD/../../../out"
